@@ -1,12 +1,82 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Listo</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="app/Styles/styles.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Listo</title>
+
+
+
 </head>
+
 <body>
 
+    <div class="header"><i class="fa fa-bars"></i>
+        <h1 class="todo">LISTO</h1>
+    </div>
 
 
-<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<main>
+
+    <div class="row">
+        <div class="col-md-4">
+
+            <div class="pink box">
+                <div class="top pinktop">
+                <div id="newItemHeader">
+                <label id="newLabel">New</label>
+                <i id="plus" class="fa fa-plus"></i>
+                </div>
+                    <form id="form">
+                        <input id="newItemInput" placeholder="new task">
+                        <button id="saveNewItem">Save</button>
+                        <button id="cancel">Cancel</button>
+                    </form>
+                </div>
+                <ul class="list-group" id="newList">
+                </ul>
+            </div>
+
+        </div>
+
+
+        <div class="col-md-4">
+            <div class="yellow box">
+                <div class="top yellowtop">
+                    In Progress
+                </div>
+                    <ul class="list-group" id="currentList">
+                    </ul>
+            </div>
+        </div>
+
+
+
+        <div class="col-md-4">
+            <div class="green box">
+                <div class="top greentop">
+                    Archived
+                </div>
+                <ul class="list-group" id="archivedList">
+                </ul>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+</main>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="app/scripts/main.js"></script>
 </body>
+
 </html>

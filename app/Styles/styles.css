@@ -1,0 +1,60 @@
+.header {
+	background: black;
+	width: 100%;
+	height: 65px;
+	color: gray;
+	text-align: left;
+	font-family: serif;
+	padding-left: 1%:;
+}
+
+main {
+	padding: 20px;
+}
+	
+.todo {
+	text-align: center;
+	margin-top: 0;
+}
+]
+.fa-bars {
+	font-size: 35px;
+	padding: 1%;
+
+}
+
+.fa-plus {
+	font-size: 30px;
+	float: right;
+	padding: 2%;
+}
+
+.box {
+	border: 1.5px solid gray;
+	height: 250px;
+	border-radius: 4px;
+	margin: 5px;
+	
+}
+
+
+
+.pinktop {
+	background-color: pink;
+}
+.yellowtop {
+	background-color: #dfe122;
+	font-size: 20px;
+	
+}
+.greentop {
+	background-color: #49903e;
+	font-size: 20px;
+
+}
+
+
+.top {
+	height: 44px;
+}
+
